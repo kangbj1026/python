@@ -26,34 +26,34 @@ print(f"a ** b = {a ** b} (거듭제곱)")
 score = 85
 
 if score >= 90:
-    print("학점: A")
+	print("학점: A")
 elif score >= 80:
-    print("학점: B")
+	print("학점: B")
 else:
-    print("학점: C 이하")
+	print("학점: C 이하")
 
 # 4. 반복문 (for, while)
 # for 루프
 fruits = ["apple", "banana", "cherry"]
 print("과일 목록:")
 for fruit in fruits:
-    print(fruit)
+	print(fruit)
 
 # while 루프
 count = 0
 while count < 5:
-    print(f"카운트: {count}")
-    count += 1
+	print(f"카운트: {count}")
+	count += 1
 
 # 5. 함수
 def greet(name):
-    return f"안녕하세요, {name}님!"
+	return f"안녕하세요, {name}님!"
 
 message = greet("Bob")
 print(message)
 
 def add(x, y):
-    return x + y
+	return x + y
 
 result = add(5, 3)
 print(f"5 + 3 = {result}")
